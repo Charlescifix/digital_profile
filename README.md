@@ -1,19 +1,25 @@
-# Charles Nwankpa - Digital Portfolio
+# Charles Nwankpa - AI Product Engineer Portfolio
 
-A modern, interactive portfolio showcasing AI/ML engineering expertise, enterprise solutions, and professional achievements.
+> **Live Demo**: [Visit Portfolio](https://digital-profile-production.up.railway.app) 🚀
 
-## 🚀 Features
+A sophisticated, interactive portfolio showcasing enterprise-grade AI/ML engineering expertise, production-scale solutions, and strategic business impact across FinTech, EdTech, and enterprise domains.
 
-- **Modern Design**: Glass morphism UI with interactive animations
-- **Comprehensive Portfolio**: Featured projects, technical skills, and professional experience
-- **Responsive Layout**: Optimized for all devices and screen sizes
-- **Professional Sections**: 
-  - Hero with profile integration
-  - About Me with current focus
-  - Projects & Company Engagements
-  - Education with detailed coursework
-  - Professional Certifications
-  - Comprehensive Skills & Technology overview
+## ✨ Portfolio Highlights
+
+- **🎨 Premium Design**: Glass morphism UI with sophisticated animations and professional styling
+- **🏗️ Featured Projects**: GEN3BLOCK Enterprise AI SaaS & IUFP Digital Platform with comprehensive technical details
+- **🔧 150+ Technologies**: Across 12 specialized domains including AI/ML, Cloud Infrastructure, and Financial Analysis
+- **🎓 Professional Credentials**: AWS ML Engineer, BCS Ethical AI, CMI Strategic Leadership certifications
+- **📱 Responsive Excellence**: Optimized performance across all devices and screen sizes
+
+## 🎯 Professional Sections
+
+- **Hero Section**: Executive positioning with interactive profile and key metrics
+- **About Me**: Strategic AI implementation approach and current focus areas
+- **Projects & Company Engagements**: Featured enterprise solutions with detailed architecture
+- **Education**: MSc Data Science (Coventry) & BSc Finance (EMU) with comprehensive coursework
+- **Certifications**: Professional credentials with detailed skill breakdowns
+- **Skills & Technology**: Categorized expertise across enterprise technology stack
 
 ## 🛠 Tech Stack
 
@@ -27,49 +33,78 @@ A modern, interactive portfolio showcasing AI/ML engineering expertise, enterpri
 ```
 digital_port/
 ├── portfolio.html          # Main portfolio page
-├── charles_nwankpa_photo.jpg  # Profile photo
-├── charles_nwankpa_cv.pdf     # CV download
-├── README.md               # This file
-└── .gitignore             # Git ignore rules
+├── profile-photo.jpg       # Professional profile photo
+├── railway.json           # Railway deployment configuration
+├── nixpacks.toml          # Build configuration for Railway
+├── README.md              # Project documentation
+└── .gitignore             # Git ignore rules (excludes sensitive files)
 ```
 
-## 🚀 Deployment
+## 🚀 Deployment & Access
 
-### Railway Deployment
+### Live Portfolio
+- **Production URL**: https://digital-profile-production.up.railway.app
+- **Main File**: portfolio.html (loads directly - no redirects)
+- **Status**: ✅ Live and optimized for professional viewing
 
-This portfolio is configured for deployment on Railway:
-
-1. **Connect Repository**: Link your GitHub repository to Railway
-2. **Auto-Deploy**: Railway will automatically deploy on git push
-3. **Static Site**: Serves the portfolio.html as the main page
-4. **Custom Domain**: Configure your domain in Railway settings
+### Railway Deployment Configuration
+- **Platform**: Railway (automatic deployment)
+- **Build**: Nixpacks with Python HTTP server
+- **Port**: Dynamic Railway port assignment
+- **SSL**: Automatic HTTPS certificate
+- **Performance**: Optimized static site delivery
 
 ### Local Development
+```bash
+# Clone the repository
+git clone https://github.com/Charlescifix/digital_profile.git
 
-Simply open `portfolio.html` in any modern web browser - no build process required.
+# Open in browser
+open portfolio.html
 
-## 📊 Portfolio Highlights
+# Or serve locally with Python
+python -m http.server 8080
+```
 
-- **35+ Projects**: Across AI/ML, FinTech, and EdTech domains
-- **150+ Technologies**: Enterprise-grade technology stack
-- **6+ Years Experience**: Production-scale AI/ML implementations
-- **AWS Certified**: ML Engineer Associate certification
-- **BCS Certified**: Ethical AI Foundation certification
+## 📊 Professional Metrics
+
+- **🎯 35+ Projects**: Enterprise AI/ML implementations across FinTech, EdTech, and SaaS domains
+- **⚡ 150+ Technologies**: Production-scale expertise in modern enterprise stack
+- **🏆 6+ Years Experience**: From startup MVP to enterprise-grade AI systems
+- **☁️ AWS Certified**: ML Engineer Associate - Production ML workloads
+- **🛡️ BCS Certified**: Foundation in Ethical Build of AI - Responsible development
+- **📈 CMI Certified**: Level 7 Strategic Management & Leadership
 
 ## 🔒 Security & Privacy
 
-- Sensitive information is excluded via .gitignore
-- CV download requires form submission for lead tracking
-- GDPR-compliant data handling practices
-- No hardcoded credentials or API keys
+- **🔐 Gated Contact System**: Professional lead qualification via CV request form
+- **🚫 No Public Email**: All contact requests processed through controlled channels  
+- **📋 GDPR Compliance**: Transparent data collection with explicit consent
+- **🛡️ Secure Repository**: Sensitive files excluded, no credentials committed
+- **⚡ Railway Security**: HTTPS encryption, secure static site delivery
 
-## 📞 Contact
+## 🤝 Professional Engagement
 
-- **Email**: charlesnwankpa9@gmail.com
-- **LinkedIn**: [charles-nwankpa](https://www.linkedin.com/in/charles-nwankpa)
-- **GitHub**: [Charlescifix](https://github.com/Charlescifix)
-- **Location**: London, UK
+- **📅 Discovery Call**: [Book 15-min consultation](https://calendly.com/charles-nwankpa/intro-call)
+- **📄 CV Request**: Available via portfolio form (GDPR-compliant process)
+- **💼 LinkedIn**: [charles-nwankpa](https://www.linkedin.com/in/charles-nwankpa)
+- **💻 GitHub**: [Charlescifix](https://github.com/Charlescifix)
+- **📍 Location**: London, UK
+
+### 🎯 Available For:
+- **Fractional AI/ML Engineering** • Strategic consulting • Executive training • Full-time opportunities
 
 ---
 
-*Built with ❤️ by Charles Nwankpa - AI Product Engineer*
+## 🏗️ Technical Implementation
+
+**Frontend Stack**: HTML5, CSS3 (TailwindCSS), Vanilla JavaScript  
+**Icons**: Feather Icons for consistent professional styling  
+**Animations**: CSS transforms with smooth cubic-bezier transitions  
+**Performance**: Optimized static site, sub-second load times  
+**Accessibility**: ARIA labels, semantic HTML, screen reader support  
+
+---
+
+*🤖 Built with precision by Charles Nwankpa - AI Product Engineer*  
+*⚡ Powered by Railway • 🔒 Secured by design • 📱 Mobile-optimized*
