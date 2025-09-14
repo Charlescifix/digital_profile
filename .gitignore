@@ -6,7 +6,7 @@
 
 # Personal information
 *.pdf
-*.jpg
+# *.jpg - commented out to allow profile photo
 *.jpeg
 *.png
 *.gif
