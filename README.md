@@ -1,6 +1,6 @@
 # Charles Nwankpa - AI Product Engineer Portfolio
 
-> **Live Demo**: [Visit Portfolio](https://digital-profile-production.up.railway.app) 🚀
+> **Live Demo**: [Visit Portfolio](https://charles-ai.up.railway.app) 🚀
 
 A sophisticated, interactive portfolio showcasing enterprise-grade AI/ML engineering expertise, production-scale solutions, and strategic business impact across FinTech, EdTech, and enterprise domains.
 
@@ -32,19 +32,19 @@ A sophisticated, interactive portfolio showcasing enterprise-grade AI/ML enginee
 
 ```
 digital_port/
-├── portfolio.html          # Main portfolio page
-├── profile-photo.jpg       # Professional profile photo
-├── railway.json           # Railway deployment configuration
-├── nixpacks.toml          # Build configuration for Railway
-├── README.md              # Project documentation
-└── .gitignore             # Git ignore rules (excludes sensitive files)
+├── index.html             # Main portfolio page (serves at root URL)
+├── profile-photo.jpg      # Professional profile photo
+├── railway.json          # Railway deployment configuration
+├── nixpacks.toml         # Build configuration for Railway
+├── README.md             # Project documentation
+└── .gitignore            # Git ignore rules (excludes sensitive files)
 ```
 
 ## 🚀 Deployment & Access
 
 ### Live Portfolio
-- **Production URL**: https://digital-profile-production.up.railway.app
-- **Main File**: portfolio.html (loads directly - no redirects)
+- **Production URL**: https://charles-ai.up.railway.app
+- **Main File**: index.html (serves directly at root URL)
 - **Status**: ✅ Live and optimized for professional viewing
 
 ### Railway Deployment Configuration
@@ -60,7 +60,7 @@ digital_port/
 git clone https://github.com/Charlescifix/digital_profile.git
 
 # Open in browser
-open portfolio.html
+open index.html
 
 # Or serve locally with Python
 python -m http.server 8080
