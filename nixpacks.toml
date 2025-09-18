@@ -4,5 +4,3 @@ cmds = ["echo 'Building static site...'"]
 [phases.start]
 cmd = "python -m http.server $PORT"
 
-[variables]
-PORT = "8080"
