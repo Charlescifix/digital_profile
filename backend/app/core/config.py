@@ -56,8 +56,8 @@ class Settings(BaseSettings):
     MAX_FILE_SIZE: int = 5242880  # 5MB
     
     # External Services
-    CALENDLY_URL: str = "https://calendly.com/charles-nwankpa/intro-call"
-    LINKEDIN_URL: str = "https://www.linkedin.com/in/charles-nwankpa"
+    CALENDLY_URL: str = "https://calendly.com/charlesnwankpa9/free-discovery-call"
+    LINKEDIN_URL: str = "https://www.linkedin.com/in/charles-nwankpa-324771132/"
     
     # Monitoring
     SENTRY_DSN: Optional[str] = None
